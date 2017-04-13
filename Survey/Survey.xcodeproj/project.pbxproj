@@ -11,6 +11,8 @@
 		2AA078E91E9FDECA00ED2E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA078E71E9FDECA00ED2E75 /* Main.storyboard */; };
 		2AA078EB1E9FDECA00ED2E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA078EA1E9FDECA00ED2E75 /* Assets.xcassets */; };
 		2AA078EE1E9FDECA00ED2E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA078EC1E9FDECA00ED2E75 /* LaunchScreen.storyboard */; };
+		2AA078FA1E9FE20000ED2E75 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA078F91E9FE20000ED2E75 /* Survey.swift */; };
+		2AA078FD1E9FE6F100ED2E75 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA078FC1E9FE6F100ED2E75 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2AA078EA1E9FDECA00ED2E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AA078ED1E9FDECA00ED2E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AA078EF1E9FDECA00ED2E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA078F91E9FE20000ED2E75 /* Survey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		2AA078FC1E9FE6F100ED2E75 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			children = (
 				2AA078E31E9FDECA00ED2E75 /* AppDelegate.swift */,
 				2AA078F71E9FDEE700ED2E75 /* Models */,
+				2AA078FB1E9FE6DE00ED2E75 /* ModelControllers */,
 				2AA078F61E9FDEDE00ED2E75 /* ViewControllers */,
 				2AA078F81E9FDEF300ED2E75 /* NetworkController */,
 				2AA078F51E9FDED600ED2E75 /* Resources */,
@@ -82,6 +87,7 @@
 		2AA078F71E9FDEE700ED2E75 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2AA078F91E9FE20000ED2E75 /* Survey.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -89,8 +95,16 @@
 		2AA078F81E9FDEF300ED2E75 /* NetworkController */ = {
 			isa = PBXGroup;
 			children = (
+				2AA078FC1E9FE6F100ED2E75 /* NetworkController.swift */,
 			);
 			name = NetworkController;
+			sourceTree = "<group>";
+		};
+		2AA078FB1E9FE6DE00ED2E75 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA078E41E9FDECA00ED2E75 /* AppDelegate.swift in Sources */,
+				2AA078FA1E9FE20000ED2E75 /* Survey.swift in Sources */,
+				2AA078FD1E9FE6F100ED2E75 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
